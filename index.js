@@ -100,7 +100,6 @@ module.exports = {
         "space-before-function-paren": 2,
         "space-in-parens": [2, "never"],
         "space-infix-ops": 2,
-        "space-return-throw-case": 2,
         "space-unary-ops": 2,
         "spaced-comment": [2, "always", { "exceptions": ["-"]}],
         "padded-blocks": [2, "never"],
