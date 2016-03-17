@@ -12,3 +12,4 @@ A new tag is created for each new release.
 ### TODO
 - [ ] separate BabelJS rules
 - [ ] create different configs for NodeJS, React, Vue projects
+- [ ] publish to npm

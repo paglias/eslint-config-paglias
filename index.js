@@ -19,7 +19,7 @@ module.exports = {
         "no-fallthrough": 2,
         "no-floating-decimal": 2,
         "no-empty-pattern": 2,
-        "no-empty-label": 2,
+        "no-labels": [2, {"allowLoop": true, "allowSwitch": true}],
         "no-lone-blocks": 2,
         "no-loop-func": 2,
         "no-implicit-coercion": 2,
@@ -95,10 +95,9 @@ module.exports = {
         "operator-linebreak": [2, "after"],
         "quote-props": [2, "as-needed"],
         "semi-spacing": [2, {"before": false, "after": true}],
-        "space-after-keywords": 2,
+        "keyword-spacing": 2,
         "space-before-blocks": 2,
         "space-before-function-paren": 2,
-        "space-before-keywords": 2,
         "space-in-parens": [2, "never"],
         "space-infix-ops": 2,
         "space-return-throw-case": 2,
@@ -116,8 +115,9 @@ module.exports = {
         "mocha": true,
         "node": true
     },
-    "ecmaFeatures" : {
-        "modules": true
+    "parserOptions" : {
+        "ecmaVersion": 6,
+        "sourceType": "module" // to enable es6 modules
     },
     "extends": "eslint:recommended"
 };
