@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/paglias/eslint-config-paglias.git"
   },
-  "author": "Matteo Pagliazzi <matteopagliazzi@gmail.com>",
+  "author": "Matteo Pagliazzi <matteopagliazzi@gmail.com> (http://paglias.net)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/paglias/eslint-config-paglias/issues"
