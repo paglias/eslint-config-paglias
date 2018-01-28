@@ -8,8 +8,12 @@ Information about installation and usage can be found at http://eslint.org/docs/
 
 ### eslint-config-paglias
 ### eslint-config-paglias/lib/vue
+### eslint-config-paglias/lib/node
 
 ## TODO
+
+### general
+- describe rules
 
 ### vue
 
